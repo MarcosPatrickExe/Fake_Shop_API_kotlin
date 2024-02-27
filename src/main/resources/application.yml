@@ -1,9 +1,13 @@
+# enabling the H2 database UI console
 spring:
+    datasource:
+            url: jdbc:h2:mem:fake_shop_api_db
+            password: 1234
+            username: patrick
     h2:
-        console:
-            enabled: true
-            path: /h2-console
-            settings:
-                trace: false
-                web-allow-others: false
-# enabling the H2 cosole
+            console:
+                    enabled: true
+                    path: /h2-console
+                    settings:
+                        trace: false
+                        web-allow-others: false

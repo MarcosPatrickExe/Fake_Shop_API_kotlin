@@ -1,5 +1,8 @@
 package dev.patrick.fake.shop.api.entity
 
+import jakarta.persistence.Entity
+import jakarta.persistence.Table
+
 
 data class Customer(
         var firstName: String = "",
