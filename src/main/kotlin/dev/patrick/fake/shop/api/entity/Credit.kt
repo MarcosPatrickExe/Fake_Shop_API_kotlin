@@ -31,7 +31,7 @@ data class Credit (
         val status : Status = Status.PROGRESS,
 
         @ManyToOne
-        val customer :Customer? = null,                      // willl be created when the Credit instance
+        var customer :Customer? = null,                      // willl be created when the Credit instance
 
        @Id
         val  id: Long? = null
