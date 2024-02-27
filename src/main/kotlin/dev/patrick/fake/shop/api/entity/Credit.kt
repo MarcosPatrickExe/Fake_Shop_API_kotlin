@@ -13,7 +13,7 @@ import java.util.UUID
 
 @Entity( )
 @Table( name="Credit ")
-class Credit (
+data class Credit (
 
         @Column( nullable = false, unique=true)
         val creditCode : UUID = UUID.randomUUID(),
