@@ -5,7 +5,7 @@ spring:
             password: 1234
             username: patrick
     jpa:
-            show-sql: true                   #show sql commands on console
+            show-sql: true                        #show sql commands on console
             properties:
                     hibernate:
                         format_sql: true
