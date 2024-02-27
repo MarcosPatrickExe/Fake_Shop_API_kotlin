@@ -1,6 +1,6 @@
 package dev.patrick.fake.shop.api.service
+import dev.patrick.fake.shop.api.entity.Customer
 
-import dev.patrick.fake.shop.api.repository.Customer
 
 interface ICustomerService {
 
