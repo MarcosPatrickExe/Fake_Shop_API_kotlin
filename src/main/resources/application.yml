@@ -4,9 +4,11 @@ spring:
             url: jdbc:h2:mem:fake_shop_api_db
             password: 1234
             username: patrick
- #   jpa:
- #           hibernate:
- #                  ddl-auto: create-drop
+    jpa:
+            show-sql: true                   #show sql commands on console
+            properties:
+                    hibernate:
+                        format_sql: true
     h2:
             console:
                     enabled: true
