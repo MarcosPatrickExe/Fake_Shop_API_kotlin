@@ -3,7 +3,7 @@ import jakarta.persistence.*
 
 
 @Entity( )
-@Table( name="Client ")
+@Table( name="Customer ")
 data class Customer(
 
         @Column( nullable = false )

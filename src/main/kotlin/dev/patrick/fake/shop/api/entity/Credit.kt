@@ -12,7 +12,7 @@ import java.util.UUID
 
 
 @Entity( )
-@Table( name="Client ")
+@Table( name="Credit ")
 class Credit (
 
         @Column( nullable = false, unique=true)
